@@ -1,0 +1,115 @@
+@import 'modules/appBar.css';
+@import 'page/home.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+/* Design System */
+:root {
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+    
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+
+}
+@media (max-width: 768px) {
+   
+}
+body {
+    background-color: var(--light-grey);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+
+
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    
+}
+.Logo{
+    width: 90px;
+}
+h3{
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+}
+h7{
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+}
+h8{
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+}
+h9{
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+}
+
+.test{
+    display: inline-block;
+    text-align: center;
+}
+.test img{
+    display: block;
+    margin: 0 auto;
+}
